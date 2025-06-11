@@ -29,24 +29,25 @@
                     <li class="nav-item"><a class="nav-link active" href="administration.html">الإدارة والمعلمين</a></li>
                     <li class="nav-item"><a class="nav-link" href="departments.html">الأقسام</a></li>
                     <li class="nav-item"><a class="nav-link" href="activities.html">الأنشطة</a></li>
-                    <li class="nav-item"><a class="nav-link " href="news.html">الأخبار</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">الأخبار</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-        <!-- شريط الإعلانات -->
-        <div class="announcement-bar bg-warning py-2">
-            <div class="container text-center">
-                <marquee behavior="scroll" direction="right" scrollDelay="150">
-                    <strong>إعلان:</strong> ببالغ الحزن والأسى، وقلوب مؤمنة بقضاء الله وقدره، ننعى اليوم قامة وطنية وشخصية عظيمة، العقيد/ شريف القائد العسكري للمدرسة
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <strong>إعلان:</strong> امتحانات نهاية الفصل الدراسي تبدأ يوم 2025/06/29 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <strong>إعلان:</strong> نتائج الامتحانات لصفوف النقل يوم 20 يونيو 2025 بالتوفيق لجميع الطلبة&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <strong>إعلان:</strong>امتحانات الدور الثاني تبدأ 2025/07/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </marquee>
-            </div>
+
+    <!-- شريط الإعلانات -->
+    <div class="announcement-bar bg-warning py-2">
+        <div class="container text-center">
+            <marquee behavior="scroll" direction="right" scrollDelay="150">
+                <strong>إعلان:</strong> ببالغ الحزن والأسى، وقلوب مؤمنة بقضاء الله وقدره، ننعى اليوم قامة وطنية وشخصية عظيمة، العقيد/ شريف القائد العسكري للمدرسة
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <strong>إعلان:</strong> امتحانات نهاية الفصل الدراسي تبدأ يوم 2025/06/29 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <strong>إعلان:</strong> نتائج الامتحانات لصفوف النقل يوم 20 يونيو 2025 بالتوفيق لجميع الطلبة&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <strong>إعلان:</strong>امتحانات الدور الثاني تبدأ 2025/07/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </marquee>
         </div>
+    </div>
 
     <div class="container mt-5 py-5">
         <h1 class="section-title text-center mb-5">الإدارة والهيئة التعليمية بالمدرسة</h1>
@@ -57,23 +58,29 @@
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
                         <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                            <img src="images/admin1.jpg" alt="مدير المدرسة" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover; border: 3px solid var(--primary-color);">
-                            <h5 class="mt-2 text-primary">مهندس هاني ماهر</h5>
+                            <img src="images/admin1.jpg" alt="مدير المدرسة" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 150px; height: 150px; object-fit: cover; border: 3px solid var(--primary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#adminModal1">
+                            <h5 class="mt-2 text-primary">مهندس هاني ناهر</h5>
                             <p class="text-muted">مدير المدرسة</p>
                         </div>
                     </div>
                     
                     <div class="col-md-4 mb-4">
                         <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                            <img src="images/admin2.jpg" alt="نائب المدير" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover; border: 3px solid var(--primary-color);">
-                            <h5 class="mt-2 text-primary">مهندس مؤمن فاروق</h5>
-                            <p class="text-muted">وكيل التعليم</p>
+                            <img src="images/admin2.jpg" alt="نائب المدير" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 150px; height: 150px; object-fit: cover; border: 3px solid var(--primary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#adminModal2">
+                            <h5 class="mt-2 text-primary">الاستاذ حسين عامر  </h5>
+                            <p class="text-muted"> وكيل شئون الطلبة</p>
                         </div>
                     </div>
                     
                     <div class="col-md-4 mb-4">
                         <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                            <img src="images/admin3.jpg" alt="شئون الطلبة" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover; border: 3px solid var(--primary-color);">
+                            <img src="images/admin3.jpg" alt="شئون الطلبة" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 150px; height: 150px; object-fit: cover; border: 3px solid var(--primary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#adminModal3">
                             <h5 class="mt-2 text-primary">مهندس محمد عبدالقادر</h5>
                             <p class="text-muted">وكيل التعليم المزدوج</p>
                         </div>
@@ -88,7 +95,9 @@
                 <div class="row text-center">
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                            <img src="images/teacher11.jpg" alt="معلم" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);">
+                            <img src="images/teacher11.jpg" alt="معلم" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#teacherModal1">
                             <h6 class="mt-2 text-primary">الاستاذ ايمن رسلان</h6>
                             <p class="text-muted">اللغة العربية</p>
                         </div>
@@ -96,7 +105,9 @@
                     
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                            <img src="images/teacher2.jpg" alt="معلم" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);">
+                            <img src="images/teacher2.jpg" alt="معلم" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#teacherModal2">
                             <h6 class="mt-2 text-primary">الاستاذ أحمد حسن</h6>
                             <p class="text-muted">تخصص الالكترونيات</p>
                         </div>
@@ -104,7 +115,9 @@
                     
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                            <img src="images/teacher3.jpg" alt="معلم" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);">
+                            <img src="images/teacher3.jpg" alt="معلم" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#teacherModal3">
                             <h6 class="mt-2 text-primary">الاستاذ علاء محمود</h6>
                             <p class="text-muted">تخصص التبريد والتكييف</p>
                         </div>
@@ -112,51 +125,55 @@
                     
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                            <img src="images/teacher4.jpg" alt="معلم" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);">
+                            <img src="images/teacher4.jpg" alt="معلم" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#teacherModal4">
                             <h6 class="mt-2 text-primary">الاستاذ احمد الديب</h6>
                             <p class="text-muted">تخصص السيارات</p>
                         </div>
                     </div>
                     
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
+                            <img src="images/fared.jpg" alt="معلم" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#teacherModal5">
+                            <h6 class="mt-2 text-primary">الاستاذ فريد شوقي</h6>
+                            <p class="text-muted">تخصص السيارات</p>
+                        </div>
                     </div>
-                    <div class="card shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="row text-center">
-                                <div class="col-md-3 col-sm-6 mb-4">
-                                    <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                                        <img src="images/fared.jpg" alt="معلم" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);">
-                                        <h6 class="mt-2 text-primary">الاستاذ  فريد شوقي</h6>
-                                        <p class="text-muted">تخصص السيارات </p>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-md-3 col-sm-6 mb-4">
-                                    <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                                        <img src="images/ahmed_sh.jpg" alt="معلم" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);">
-                                        <h6 class="mt-2 text-primary">الاستاذ أحمد السيد شحاته</h6>
-                                        <p class="text-muted">تخصص الميكانيكا</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-md-3 col-sm-6 mb-4">
-                                    <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                                        <img src="images/shatter.jpg" alt="معلم" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);">
-                                        <h6 class="mt-2 text-primary">الاستاذ  احمد عبدالرحمن</h6>
-                                        <p class="text-muted">تخصص  الكهرباء</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-md-3 col-sm-6 mb-4">
-                                    <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
-                                        <img src="images/alaa.jpg" alt="معلم" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);">
-                                        <h6 class="mt-2 text-primary">الاستاذ علاء فريد </h6>
-                                        <p class="text-muted">تخصص الكهرباء</p>
-                                    </div>
-                                </div>
-                                
-                                </div>
-                            
-                            <div class="text-center mt-4">
+                    
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
+                            <img src="images/ahmed_sh.jpg" alt="معلم" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#teacherModal6">
+                            <h6 class="mt-2 text-primary">الاستاذ أحمد السيد شحاته</h6>
+                            <p class="text-muted">تخصص الميكانيكا</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
+                            <img src="images/shatter.jpg" alt="معلم" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#teacherModal7">
+                            <h6 class="mt-2 text-primary">الاستاذ احمد عبدالرحمن</h6>
+                            <p class="text-muted">تخصص الكهرباء</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="p-3 border rounded h-100 d-flex flex-column justify-content-center align-items-center">
+                            <img src="images/alaa.jpg" alt="معلم" class="img-fluid rounded-circle mb-3 teacher-img" 
+                                 style="width: 100px; height: 100px; object-fit: cover; border: 2px solid var(--secondary-color);"
+                                 data-bs-toggle="modal" data-bs-target="#teacherModal8">
+                            <h6 class="mt-2 text-primary">الاستاذ علاء فريد</h6>
+                            <p class="text-muted">تخصص الكهرباء</p>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="text-center mt-4">
                     <a href="#" class="btn btn-primary btn-lg">عرض جميع المعلمين</a>
                 </div>
@@ -164,6 +181,229 @@
         </div>
     </div>
 
+    <!-- Modals للإدارة -->
+    <div class="modal fade" id="adminModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المدير</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/admin1.jpg" class="modal-img" alt="مدير المدرسة">
+                    <div class="modal-teacher-info">
+                        <h4>مهندس هاني ناهر</h4>
+                        <p class="position">مدير المدرسة</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="adminModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات  عن وكيل شئون الطلبة </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/admin2.jpg" class="modal-img" alt="نائب المدير">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ  حسين عامر</h4>
+                        <p class="position">وكيل شئون الطلبة </p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="adminModal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات وكيل التعليم المزدوج</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/admin3.jpg" class="modal-img" alt="شئون الطلبة">
+                    <div class="modal-teacher-info">
+                        <h4>مهندس محمد عبدالقادر</h4>
+                        <p class="position">وكيل التعليم المزدوج</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals للمعلمين -->
+    <div class="modal fade" id="teacherModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المعلم</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/teacher11.jpg" class="modal-img" alt="معلم">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ ايمن رسلان</h4>
+                        <p class="position">اللغة العربية</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teacherModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المعلم</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/teacher2.jpg" class="modal-img" alt="معلم">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ أحمد حسن</h4>
+                        <p class="position">تخصص الالكترونيات</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teacherModal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المعلم</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/teacher3.jpg" class="modal-img" alt="معلم">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ علاء محمود</h4>
+                        <p class="position">تخصص التبريد والتكييف</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teacherModal4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المعلم</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/teacher4.jpg" class="modal-img" alt="معلم">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ احمد الديب</h4>
+                        <p class="position">تخصص السيارات</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teacherModal5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المعلم</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/fared.jpg" class="modal-img" alt="معلم">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ فريد شوقي</h4>
+                        <p class="position">تخصص السيارات</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teacherModal6" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المعلم</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/ahmed_sh.jpg" class="modal-img" alt="معلم">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ أحمد السيد شحاته</h4>
+                        <p class="position">تخصص الميكانيكا</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teacherModal7" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المعلم</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/shatter.jpg" class="modal-img" alt="معلم">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ احمد عبدالرحمن</h4>
+                        <p class="position">تخصص الكهرباء</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teacherModal8" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">معلومات المعلم</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/alaa.jpg" class="modal-img" alt="معلم">
+                    <div class="modal-teacher-info">
+                        <h4>الاستاذ علاء فريد</h4>
+                        <p class="position">تخصص الكهرباء</p>
+                        <p class="bio">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- تذييل الصفحة -->
     <footer class="bg-dark text-white pt-5 pb-3">
         <div class="container">
             <div class="row">
@@ -173,7 +413,7 @@
                     </div>
                     <p>مدرسة الشهيد المقدم محمد عبداللاه صالح الصناعية العسكرية المشتركة، مؤسسة تعليمية رائدة في مجال التعليم الفني الصناعي.</p>
                     <div class="social-icons mt-4">
-                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="https://www.facebook.com/groups/828195525347665" class="text-white me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
                         <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
                         <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
                         <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-lg"></i></a>
@@ -220,16 +460,16 @@
             <hr class="my-4 bg-secondary">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">© 2025 جميع الحقوق محفوظة لمدرسة الشهيد المقدم محمد عبداللاه صالح.</p>
+                    <p class="mb-0">&copy; 2025 جميع الحقوق محفوظة لمدرسة الشهيد المقدم محمد عبداللاه صالح.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">تصميم وتطوير <a href="#" class="text-white">أ / علاء فريد </a></p>
+                    <p class="mb-0">تصميم وتطوير <a href="#" class="text-white">أ علاء فريد</a></p>
                 </div>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
