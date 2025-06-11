@@ -403,3 +403,18 @@ footer {
     margin-top: 15px;
     line-height: 1.8;
 }
+/* في ملف CSS الخاص بك */
+.lightbox .lb-image {
+    border: 4px solid white;
+    border-radius: 3px;
+}
+
+.lb-data .lb-caption {
+    font-size: 16px;
+    text-align: center;
+    direction: rtl;
+}
+
+.lb-nav a.lb-next, .lb-nav a.lb-prev {
+    opacity: 1;
+}
