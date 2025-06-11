@@ -365,3 +365,41 @@ footer {
         height: 60px;
     }
 }
+/* إضافة إلى ملف style.css */
+.teacher-img {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.teacher-img:hover {
+    transform: scale(1.05);
+}
+
+.modal-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    border: 4px solid var(--primary-color);
+}
+
+.modal-teacher-info {
+    text-align: center;
+}
+
+.modal-teacher-info h4 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.modal-teacher-info p.position {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.modal-teacher-info p.bio {
+    margin-top: 15px;
+    line-height: 1.8;
+}
