@@ -150,6 +150,13 @@ body {
     color: var(--primary-color);
     font-weight: bold;
 }
+li {
+    color: red;
+}
+.final li {
+    color: #1a5d9f;
+}
+
 
 /* الأخبار */
 .news-card {
